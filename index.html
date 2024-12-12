@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+
+    <main>
+        <div class="passo ativo"id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em um dia desses encontrei um mapa</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo"id="passo-1">
+            <p>Vc começa sua viagem no Rio de Janeiro próximo do campo do Botafogo</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no campo</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Pernambuco, vc visita a história da cidade de Olinda</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as Igreja antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo4-voltar-casa.png">
+            <p>Votorantim, vc Votorantim</p>
+            <button class="btn-proximo" data-proximo="7">Investigar as Escolas antigas</button>
+            <button class="btn-proximo" data-proximo="8">Explorar praça de eventos</button>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="Encontrando o tesouro">
+            <p>VC encontrou a escola </p>
+            <button class="btn-proximo" data-proximo="9">Investigar as salas </button>
+            <button class="btn-proximo" data-proximo="10">Explorar biblioteca</button>
+            
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
